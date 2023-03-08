@@ -1,0 +1,145 @@
+body {
+    font-family: 'Noto Serif Khmer', serif;
+    height: 700vh;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: sticky;
+    left: 0;
+    top: 0;
+}
+
+.titil {
+    background-image: url("../photo/DSC05611_lbwtmk.avif");
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    flex-wrap: wrap;
+}
+
+#click {
+    color: white;
+}
+
+.text,
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+    flex-direction: column;
+}
+
+.text {
+    height: 900px;
+}
+
+.titell_container {}
+
+.read {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+/* img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+} */
+
+.img img {
+    width: 400px;
+    margin: 20px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.writeandimg {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.write h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.write p {
+    display: flex;
+    justify-content: center;
+}
+
+.write {
+    width: 30%;
+}
+
+.write h5 {
+    display: flex;
+    justify-content: center;
+}
+
+.icon spen {
+    display: flex;
+    justify-content: center;
+}
+
+.icon_1 p:first-child {
+    font-size: 100px;
+}
+
+.icon_1 {
+    width: 20%;
+}
+
+.information {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gatigary {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery span {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.gallery ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery ul li {
+    width: auto;
+    list-style-type: none;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 2;
+}
+
+.gallery ul li img {
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
